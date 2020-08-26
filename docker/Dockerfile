@@ -17,6 +17,4 @@ SHELL ["/bin/bash", "-c"]
 ENV ATS_SRC_DIR=/home/amanzi_user/amanzi/src/physics/ats
 
 
-WORKDIR /home/amanzi_user/
-COPY . /home/amanzi_user/ats-demos/
-WORKDIR /home/amanzi_user/ats-demos
+WORKDIR /home/amanzi_user
